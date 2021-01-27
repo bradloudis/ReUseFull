@@ -13,42 +13,46 @@
   </head>
   <body>
     <div class="container">
-      <div class="col-md-12">
-        <h1>Contact {Organization Name}</h1>
-      </div>
-      <div class="col-md-12" style="height: 50px"></div>
-      <div class="col-md-6">
-        <label for="first-name">First Name</label>
-      </div>
-      <div class="col-md-6">
-        <label for="last-name">Last Name</label>
-      </div>
-      <div class="col-md-6">
-        <input type="text" id="first-name" class="col-md-12" />
-      </div>
-      <div class="col-md-6">
-        <input type="text" id="last-name" class="col-md-12" />
-      </div>
+      <h1 style="text-align: center">Contact {Organization Name}</h1>
 
-      <div class="col-md-6">
-        <label for="email">Email</label>
-      </div>
-      <div class="col-md-6">
-        <label for="phone">Phone</label>
-      </div>
-      <div class="col-md-6">
-        <input type="email" id="email" class="col-md-12" />
-      </div>
-      <div class="col-md-6">
-        <input type="number" id="phone" class="col-md-12" />
-      </div>
+      <form>
+        <div class="container">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" class="form-control" />
+            </div>
+          </div>
 
-      <div class="col-md-12">
-        <label for="donation">What will you be donating?</label>
-      </div>
-      <div class="col-md-12">
-        <input type="text" id="donation" class="col-md-12" />
-      </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" class="form-control" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="number" id="phone" class="form-control" />
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="form group">
+              <label for="donation">What will you be donating?</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   </body>
 </html>
